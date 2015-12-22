@@ -65,6 +65,8 @@ public class HomeMadePacMan extends Game{
 			yPos += STEP;
 			break;
 		}
+		
+		
 		//BOUND PACMAN TO THE WINDOW
 		if( xPos< 0){
 			xPos = 0;
